@@ -1,4 +1,5 @@
 import express from "express";
+import "./database";
 
 const app = express();
 
@@ -14,4 +15,4 @@ app.post("/", (req, res) => {
    });
 });
 
-app.listen(3333, () => console.log("Bora mlk que o bixo ta pegando"));
+app.listen(3333);
